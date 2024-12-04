@@ -8,4 +8,6 @@ The database used is till 2020 and has no songs to recommend released after 2020
 
 I have provided a Tableau workbook that users can download and interact with to gain a deeper understanding of the utilized database. Additionally, I have included a PowerPoint presentation that clearly outlines the objectives behind building the model, the construction process, and how it operates.
 
+The code implements a Spotify song recommendation system using a dataset of songs and their features. It leverages a graphical user interface (GUI) built with tkinter to allow users to input a song name and adjust sliders for various feature weights (e.g., tempo, loudness, popularity). The system uses cosine similarity to compute the closest matches based on the user's input and selected weights, and then displays a list of recommended songs. If the entered song name doesn't match exactly, the program suggests the closest match from the dataset, ensuring usability.
+
 The dataset has been derived from Kaggle(https://www.kaggle.com/code/tubaniksarl/music-recommendation-system).
