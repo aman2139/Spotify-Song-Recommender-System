@@ -7,3 +7,5 @@ My Recommendation Model, on the other hand, delivers precisely matching songs ba
 The database used is till 2020 and has no songs to recommend released after 2020. The accuracy and relevance of recommendations are highly dependent on the completeness, diversity, and accuracy of the dataset used. If the dataset lacks variety or contains outdated information, the recommendations may not reflect current user preferences.
 
 I have provided a Tableau workbook that users can download and interact with to gain a deeper understanding of the utilized database. Additionally, I have included a PowerPoint presentation that clearly outlines the objectives behind building the model, the construction process, and how it operates.
+
+The dataset has been derived from Kaggle(https://www.kaggle.com/code/tubaniksarl/music-recommendation-system).
