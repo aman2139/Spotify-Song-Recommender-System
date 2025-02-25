@@ -10,6 +10,6 @@ I have provided a Tableau workbook named `Spotify Song Recommendation Dashboard.
 
 The code implements a Spotify song recommendation system using a dataset of songs and their features. It leverages a graphical user interface (GUI) built with tkinter to allow users to input a song name and adjust sliders for various feature weights (e.g., tempo, loudness, popularity). The system uses cosine similarity to compute the closest matches based on the user's input and selected weights, and then displays a list of recommended songs. If the entered song name doesn't match exactly, the program suggests the closest match from the dataset, ensuring usability.
 
-The purpose was to put the starter code in the `started_spotify_eda` file, and the code for the UI shown to the user which the user interacts with as well, in the `spotify_recommender` file which is run through the terminal in VS Code. 
+The purpose was to put the starter code in the `started_spotify_eda` file, and the code for the UI shown to the user which the user interacts with as well, in the `spotify_recommender` file which is run through the terminal in VS Code. THE REST ARE JUST SUPPLEMENTARY FILES REQUIRED TO RUN THE CODE.
 
 The dataset has been derived from Kaggle(https://www.kaggle.com/code/tubaniksarl/music-recommendation-system).
