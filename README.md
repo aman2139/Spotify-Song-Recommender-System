@@ -6,8 +6,10 @@ My Recommendation Model, on the other hand, delivers precisely matching songs ba
 
 The database used is till 2020 and has no songs to recommend released after 2020. The accuracy and relevance of recommendations are highly dependent on the completeness, diversity, and accuracy of the dataset used. If the dataset lacks variety or contains outdated information, the recommendations may not reflect current user preferences.
 
-I have provided a Tableau workbook that users can download and interact with to gain a deeper understanding of the utilized database. Additionally, I have included a PowerPoint presentation that clearly outlines the objectives behind building the model, the construction process, and how it operates.
+I have provided a Tableau workbook named `Spotify Song Recommendation Dashboard.twb` that users can download and interact with to gain a deeper understanding of the utilized database. Additionally, I have included a PowerPoint presentation that clearly outlines the objectives behind building the model, the construction process, and how it operates.
 
 The code implements a Spotify song recommendation system using a dataset of songs and their features. It leverages a graphical user interface (GUI) built with tkinter to allow users to input a song name and adjust sliders for various feature weights (e.g., tempo, loudness, popularity). The system uses cosine similarity to compute the closest matches based on the user's input and selected weights, and then displays a list of recommended songs. If the entered song name doesn't match exactly, the program suggests the closest match from the dataset, ensuring usability.
+
+The purpose was to put the starter code in the `started_spotify_eda` file, and the code for the UI shown to the user which the user interacts with as well, in the `spotify_recommender` file which is run through the terminal in VS Code. 
 
 The dataset has been derived from Kaggle(https://www.kaggle.com/code/tubaniksarl/music-recommendation-system).
